@@ -1,0 +1,62 @@
+{
+  "name": "vscodecandothat",
+  "version": "1.0.0",
+  "description": "rock n roll",
+  "author": "sdras and burkeholland",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^6.0.7",
+    "vue": "^2.6.12",
+    "vuex": "^3.6.2",
+    "xml-webpack-plugin": "0.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "chalk": "^2.4.2",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^0.28.11",
+    "eventsource-polyfill": "^0.9.6",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-notifier": "^8.0.1",
+    "optimize-css-assets-webpack-plugin": "^3.2.1",
+    "ora": "^1.4.0",
+    "portfinder": "^1.0.28",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.6",
+    "rimraf": "^2.7.1",
+    "semver": "^5.7.1",
+    "shelljs": "^0.7.6",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^13.7.3",
+    "vue-style-loader": "^3.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^3.12.0",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-dev-server": "^2.8.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
