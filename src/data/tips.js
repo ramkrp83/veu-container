@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: "Force Collapsible Regions ####################",
+    title: "Force Collapsible Regions Deploy automated",
     body: `<p>This tip and video brought to you by <a href="https://twitter.com/AdebiyiAL">Adebiyi Adedotun</a></p><p>VS Code will automatically collapse code and markup at the appropriate level. You can also force VS Code to collapse certain regions by marking them with a <code>//#region</code> comment</p>`,
     video: "https://www.youtube.com/embed/OS1ttWmKkkU?rel=0",
     ctaTarget: "https://code.visualstudio.com/docs/editor/codebasics?WT.mc_id=devcloud-22498-buhollan"
